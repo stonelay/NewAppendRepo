@@ -12,7 +12,7 @@
 
 + (void)printModeName
 {
-    NewRepoModel *model = [NewRepoModel new];1
+    NewRepoModel *model = [NewRepoModel new];
     [model modelName];
 }
 
