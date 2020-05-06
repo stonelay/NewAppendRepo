@@ -6,13 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "NewRepoModel.h"
+#import "NewRepoModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NewAppendModel : NSObject
 
-//+ (void)printModeName;
++ (void)printModeName;
 
 @end
 
