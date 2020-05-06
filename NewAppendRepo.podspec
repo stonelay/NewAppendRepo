@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Pod/**/*"
 
-  # s.dependency 'BDNewRepo'
+  s.dependency 'BDNewRepo'
 
   
 end
