@@ -10,10 +10,10 @@
 
 @implementation NewAppendModel
 
-+ (void)printModeName
-{
-    NewRepoModel *model = [NewRepoModel new];
-    [model modelName];
-}
+//+ (void)printModeName
+//{
+//    NewRepoModel *model = [NewRepoModel new];
+//    [model modelName];
+//}
 
 @end
