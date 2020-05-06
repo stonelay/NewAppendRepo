@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NewAppendRepo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "NSAttributeString Util"
   s.description  = "easy way to create NSAttributeString"
 

@@ -5,8 +5,8 @@
 //  Created by Lay on 2020/4/8.
 //
 
-#ifndef BDNewRepoGlobal_h
-#define BDNewRepoGlobal_h
+#ifndef NewAppendRepoGlobal_h
+#define NewAppendRepoGlobal_h
 
 #define STRING(str)  ((str) != nil ? [NSString stringWithFormat:@"%@", (str)] : @"")
 
