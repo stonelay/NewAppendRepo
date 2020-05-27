@@ -6,7 +6,9 @@
 //
 
 #import "NewAppendModel.h"
+#import "NewRepoModel.h"
 
+#import "NewRepoModel+Ext.h"
 
 @implementation NewAppendModel
 
@@ -14,6 +16,14 @@
 {
     NewRepoModel *model = [NewRepoModel new];
     [model modelName];
+    
+    [model categoryPrint];
+    
+}
+
++ (void)append
+{
+    NSLog(@"append");
 }
 
 @end
