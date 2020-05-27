@@ -9,12 +9,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "NewAppendRepo"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "NSAttributeString Util"
   s.description  = "easy way to create NSAttributeString"
 
   s.homepage     = "https://github.com/stoneLay/NewAppendRepo"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "proprietary", :text => "text a" }
 
   s.author       = { "Lay" => "lay.zhang@beibei.com" }
 
@@ -22,10 +22,9 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = "8.0"
 
+  s.source_files =        'Pod/Classes/**/*.{h,m}'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   s.prefix_header_contents = '#import "NewAppendRepoGlobal.h"'
-  
-
-  s.source_files  = "Pod/**/*"
 
   s.dependency 'BDNewRepo'
 
